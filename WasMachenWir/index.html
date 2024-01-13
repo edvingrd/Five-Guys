@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Verknüpfung der css Datei-->
+    <link rel="stylesheet" href="Home.css">
+    <!--Verknüpfung der JavaScript Datei-->
+    <script src="Home.js"></script>
+    <!--Webseitenentwickler-->
+    <meta name="Autor" content="FiveGuys">
+    <!--Titelname-->
+    <title>WasMachenWir</title>
+</head>
+<body>
+        
+    <div class="form">
+        <img src="/Bilder/WMW_LOGO.png" class="logo">
+
+        <label for="E-mail">E-mail</label>
+        <input type="text" placeholder="E-mail" id="email">
+
+        <label for="Passwort">Passwort</label>
+        <input type="password" placeholder="Passwort" id="passwort">
+
+        <button id="Anmelden" onclick="Anmelden()">Anmelden</button>
+        <div class="Auswahlen">
+            <button class="platz" onclick="registrierenSeite()">
+                <i>Registrieren</i>
+            </button>
+            <button class="platz" onclick="infoSeite()">
+                <i>Infos</i>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
